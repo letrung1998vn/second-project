@@ -1,2 +1,1 @@
 Get image: http://udacity-second-project-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://elasticbeanstalk-us-east-1-738822551126.s3.amazonaws.com/Golden_tabby_and_white_kitten_n01.jpg Method: GET
-Clear images: http://udacity-second-project-dev.us-east-1.elasticbeanstalk.com/clearImages Method: Delete
