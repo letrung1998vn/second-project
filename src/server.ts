@@ -54,13 +54,6 @@ import {filterImageFromURL, deleteLocalFiles, isValidUrl, getFilePathsFromDirect
     res.sendFile(result)
     
   });
-
-  app.delete('/clearImages', async (req: Request, res: Response) => {
-    const tmpDir = __dirname + '/util/tmp'
-    const filePaths = await getFilePathsFromDirectory(tmpDir)
-    deleteLocalFiles(filePaths)
-    res.status(204).send()
-  })
   // Start the Server
   app.listen( port, () => {
       console.log( `server running http://localhost:${ port }` );
